@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>퇴근 후 영화 — 1990년대 다운로드 도우미</title>
+<style>
+:root{font-family:"Malgun Gothic",system-ui,sans-serif;color:#1e293b;background:#f4f6fa;font-size:14px}*{box-sizing:border-box}body{margin:0}header{background:#17233a;color:#fff;padding:25px max(25px,calc((100vw - 1180px)/2));display:flex;align-items:center;justify-content:space-between;gap:16px}h1{font-size:24px;margin:0 0 7px;letter-spacing:-.8px}header p{margin:0;color:#c1cbdc;font-size:13px}.local{border:1px solid #6e83a5;border-radius:20px;padding:7px 12px;white-space:nowrap}main{max-width:1230px;margin:22px auto;padding:0 25px 40px}h2{font-size:17px;margin:0 0 15px}h3{font-size:14px;margin:0 0 8px}.card{background:white;border:1px solid #dfe5ee;border-radius:12px;padding:22px;margin-bottom:18px;box-shadow:0 3px 10px #192c4710}.intro{background:#eef2ff;border:1px solid #d3dcfc;border-radius:10px;padding:15px 18px;line-height:1.8;margin-bottom:18px}.intro strong{color:#324c99}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.steps{display:flex;gap:14px}.num{flex:none;background:#eaf0ff;color:#305ac8;border-radius:50%;width:29px;height:29px;display:grid;place-items:center;font-weight:bold}p{line-height:1.7;margin:5px 0 13px}.muted,small{color:#66758a;line-height:1.6}.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}input[type=text],input[type=number],select{font:inherit;border:1px solid #bdc9da;border-radius:7px;padding:9px 10px;min-width:0;background:#fff;color:#17233a}input[type=text]{flex:1}input[type=number]{width:90px}button{font:inherit;cursor:pointer;border:1px solid #c8d2e1;background:#fff;color:#1f365b;padding:10px 15px;border-radius:7px;font-weight:600}button:hover{background:#eef3fc}button:disabled{opacity:.48;cursor:not-allowed}.primary{background:#345fd1;border-color:#345fd1;color:white}.primary:hover{background:#254aaf}.danger{border-color:#e1b8b8;color:#a53030}.danger:hover{background:#fff1f1}label.check{display:flex;align-items:flex-start;gap:8px;margin-top:13px;line-height:1.6}input[type=checkbox]{accent-color:#345fd1;width:16px;height:16px;flex:none;cursor:pointer}.toolbar{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-bottom:16px}.movies{display:grid;grid-template-columns:repeat(3,1fr);gap:0 15px;max-height:335px;overflow:auto;border-top:1px solid #edf0f5;padding-top:10px}.movie{display:flex;gap:9px;align-items:center;padding:9px 7px;border-radius:6px;cursor:pointer}.movie:hover{background:#f4f7ff}.movie span{flex:1}.movie small{font-variant-numeric:tabular-nums}.controls{display:flex;gap:22px;flex-wrap:wrap;margin:15px 0 20px}.controls label{display:flex;align-items:center;gap:8px}.status{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#f1f5ff;border-radius:8px;padding:13px 16px;margin:18px 0}.status strong{color:#3051a9}.tablebox{overflow:auto}table{border-collapse:collapse;width:100%;text-align:left;font-size:13px}th,td{border-bottom:1px solid #e7ebf2;padding:12px 9px;vertical-align:top}th{color:#617086;font-weight:500}td small{display:block;margin-top:4px}.badge{display:inline-block;background:#eef2f8;border-radius:5px;padding:4px 7px;white-space:nowrap}.ok{background:#e7f5ee;color:#177447}.warn{background:#fff2df;color:#985a12}a{color:#345fd1}.logs{background:#17233a;color:#dae3f2;padding:14px 17px;border-radius:8px;font:12px/1.9 Consolas,"Malgun Gothic",monospace;height:180px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.empty{color:#7a8799;padding:18px;text-align:center}.error{display:none;background:#fff0ef;color:#983c35;padding:13px;border:1px solid #f0ccc8;border-radius:8px;margin-bottom:16px}.error.show{display:block}details summary{cursor:pointer;font-weight:600;padding:2px 0 12px}details li{line-height:1.9;margin-bottom:7px}footer{color:#6c788a;font-size:12px;line-height:1.8}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #91afff;outline-offset:3px}@media(max-width:800px){header{padding:20px;display:block}.local{display:inline-block;margin-top:12px}.grid{grid-template-columns:1fr;gap:0}.movies{grid-template-columns:repeat(2,1fr)}main{padding:0 14px}.card{padding:17px}.controls{gap:12px}}@media(max-width:460px){.movies{grid-template-columns:1fr}.row input[type=text]{flex-basis:100%}}
+</style>
+</head>
+<body>
+<header><div><h1>퇴근 후 영화</h1><p>1990–1999 · 윈도우용 피디팝 다운로드 도우미</p></div><span class="local">내 PC에서만 실행</span></header>
+<main>
+<section id="installHelp" class="card" hidden><h2>소스 코드 버전 실행 방법</h2><p>이 버전은 CMD/PowerShell 실행 파일을 포함하지 않습니다. 먼저 <a href="https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe" target="_blank" rel="noopener noreferrer">공식 Python 3.13.12 (64비트)</a>를 설치하세요.</p><ol><li>ZIP 압축을 풀어 <code>launch.py</code>가 있는 폴더를 여세요.</li><li>폴더 빈 곳을 마우스 오른쪽 버튼으로 눌러 <strong>터미널에서 열기</strong>를 선택하세요.</li><li><code>py -3.13 launch.py</code>를 입력하고 Enter를 누르세요.</li></ol><p>최초 실행에는 인터넷 연결이 필요합니다. 이 HTML 파일을 직접 열면 안내만 볼 수 있습니다. 로그인 및 다운로드 제어판은 위 명령으로 실행했을 때 자동으로 열립니다.</p><p><strong>스마트 앱 컨트롤 호환성을 보장하는 서명된 앱은 아닙니다.</strong> 다른 파일이 차단되면 보안 설정을 유지하고 차단된 파일명을 확인하세요. 차단 해제·이름 변경·보호 기능 중지를 시도하지 않습니다.</p><p>이미 이전 버전을 사용했다면 작업을 종료하고, 기존 <code>data</code> 폴더를 보존하세요. 기존 다운로드 이력을 새 버전에서도 유지해야 중복 요청을 막을 수 있습니다.</p></section>
+<div class="intro"><strong>처음 한 번 로그인하고 폴더를 확인하면, 선택한 영화의 검색과 다운로드 요청을 순서대로 진행합니다.</strong><br>화면에서 다운로드 정액권 적용이 확인되는 비제휴 파일만 요청합니다. 확인창은 자동 취소하며, 알 수 없는 상태에서는 멈춥니다.</div>
+<div id="error" role="alert" class="error"></div>
+<div class="grid">
+<section class="card"><div class="steps"><span class="num">1</span><div><h2>피디팝 로그인</h2><p>아래 버튼으로 열린 <strong>별도 Edge 창</strong>에서 직접 로그인하세요. 비밀번호를 도우미에 입력하거나 보내지 않습니다.</p><button id="openBrowser" class="primary idle">로그인용 Edge 열기</button><p class="muted"><small>평소 쓰던 Edge와 다른 전용 프로필입니다. 전용 다운로더도 실행해 두세요. Edge가 로컬 네트워크 접근 허용을 물으면 피디팝에만 허용하세요.</small></p></div></div></section>
+<section class="card"><div class="steps"><span class="num">2</span><div style="width:100%"><h2>저장 폴더 확인</h2><div class="row"><input id="destination" class="idle" type="text" value="E:\원본소스" aria-label="저장 폴더"><button id="setFolder" class="idle">자동 설정 시도</button></div><p class="muted"><small>자동 인식이 안 되면 전용 다운로더의 <strong>저장경로변경</strong>에서 이 폴더를 지정하세요. 이 입력칸만 바꾸면 다운로더 설정이 바뀌는 것은 아닙니다.</small></p><label class="check"><input id="folderConfirmed" class="idle" type="checkbox"><span>전용 다운로더의 실제 저장경로가 위 폴더인지 확인했습니다.</span></label></div></div></section>
+</div>
+<section class="card">
+<div class="toolbar"><div><h2>3. 영화 선택</h2><small id="catalogNote">원개봉 연도가 1990~1999년인 기본 목록을 불러오는 중입니다.</small></div><div class="row"><select id="yearFilter" aria-label="연도 필터"><option value="all">전체 연도</option></select><button id="selectVisible" class="idle">보이는 영화 선택</button><button id="clearSelection" class="idle">전체 해제</button></div></div>
+<div class="movies" id="movies"></div>
+<p class="muted"><small>전체 1990년대 영화 데이터베이스가 아닌 기본 60편 목록입니다. 게시물 제목에 영화명과 정확한 개봉 연도가 함께 있는 경우만 선택합니다. 잘못 표기된 제목까지 완벽히 식별하지는 못하며, 리메이크·합본·중복·불명확한 결과는 보수적으로 제외합니다.</small></p>
+<div class="controls"><label>최대 <input id="limit" class="idle" type="number" min="1" max="20" value="5"> 편</label><label>총 용량 <input id="budget" class="idle" type="number" min="1" max="200" value="25"> GB</label><label>편당 대기 <input id="timeout" class="idle" type="number" min="5" max="180" value="30"> 분</label></div>
+<div class="row"><button id="scan" class="idle">먼저 검사만 하기</button><button id="run" class="primary idle">자동 다운로드 시작</button><button id="stop" class="danger">대기열 중지</button><span id="selectedCount" class="muted"></span></div>
+<div class="status" role="status" aria-live="polite"><strong id="phase">연결 중</strong><span id="busyText">제어판에 연결하고 있습니다.</span></div>
+<p class="muted"><small>최대 편수는 이번 실행에서 처리하는 편수입니다. 한 게시물에 영상 1개와 자막만 선택하고 스크린샷·실행파일은 제외합니다. 편당 12GB 이하, 다운로드 후 여유 공간 5GB 이상. 다음 영화는 앞 영화의 저장 파일 확인 후 시작합니다.</small></p>
+<div class="tablebox"><table><thead><tr><th>영화 / 연도</th><th>상태</th><th>내용</th></tr></thead><tbody id="results"><tr><td colspan="3" class="empty">아직 실행한 작업이 없습니다.</td></tr></tbody></table></div>
+</section>
+<section class="card"><h2>진행 기록</h2><div id="logs" class="logs" role="log" aria-label="진행 기록">아직 기록이 없습니다.</div></section>
+<section class="card"><details><summary>이전 요청 이력 · 중복 방지</summary><p>요청 직전에 이력을 저장합니다. 멈추거나 재실행하더라도 전송 여부가 불확실한 영화를 자동으로 다시 요청하지 않습니다. 필요한 경우 전용 다운로더의 대기열과 폴더를 직접 확인한 후 해당 이력만 해제하세요.</p><div id="history"></div></details></section>
+<section class="card"><details><summary>사용 안내 · 문제 해결 · 검증 범위</summary><ul>
+<li><strong>윈도우 10/11 64비트, Microsoft Edge, 공식 피디팝 전용 다운로더</strong>가 필요합니다. 도우미는 피디팝 공식 제품이 아닙니다. 계정·이용권은 제공하지 않습니다.</li>
+<li>로그인과 세션은 이 프로그램 폴더의 <code>data/edge-profile</code>에만 저장됩니다. 이 폴더를 다른 사람에게 보내지 마세요. 이력은 <code>data/history.json</code>에 저장됩니다. 분석 서버나 외부 AI로 로그인 정보를 보내지 않습니다.</li>
+<li>현재 공개 사이트 구조를 조사해 구현했습니다. 로그인된 실제 회원 계정 및 윈도우 전용 다운로더를 이용한 끝까지의 다운로드는 개발 환경에서 검증하지 못했습니다. 첫 실행은 1편으로 시험하는 것을 권장합니다.</li>
+<li>사이트의 정액권 플래그와 제휴 여부를 읽고 공식 다운로드 버튼만 누릅니다. 사이트 자체의 권한·결제 검사를 우회하지 않습니다. 과금 정책과 서버 처리는 사이트가 결정하므로 과금이 절대 없음을 보증하지는 않습니다. 예상치 못한 확인창은 자동 취소하고 중지합니다.</li>
+<li>설치 안내가 나오거나 요청을 확인하지 못하면 공식 다운로더 실행 상태, Edge의 피디팝 로컬 네트워크 권한을 확인하세요. 사이트 구조가 바뀌면 동작을 멈추도록 되어 있습니다.</li>
+<li><strong>‘요청’은 완료가 아닙니다.</strong> 파일 확인은 파일명·정확한 바이트 크기·윈도우 파일 잠금 해제를 반복 확인한 결과이며, 영상 재생이나 해시 무결성 검증이 아닙니다. 기존 파일도 이름과 크기로만 판별합니다.</li>
+<li>대기열 중지나 프로그램 종료는 이미 전용 다운로더로 넘어간 전송을 취소하지 않습니다. 진행 중인 전송은 전용 다운로더에서 일시정지/취소하세요. 다운로드 도중 저장경로·선택파일·브라우저 탭을 변경하지 마세요.</li>
+<li>기본 목록에 없는 작품 추가, 여러 동영상으로 나뉜 게시물, 연도가 없는 제목, 자동 CAPTCHA 처리, 쿠폰 사용, 유료 제휴 콘텐츠, 성인인증 우회는 지원하지 않습니다.</li>
+<li>저장 폴더 자동 설정은 표준 접근성 버튼과 폴더 대화상자를 찾았을 때만 시도합니다. 사용자 PC에서 버튼이 보이지 않으면 수동으로 한 번 지정해야 합니다.</li>
+<li>공식 Python 3.13.12 이상 3.13.x 일반 64비트 버전을 먼저 설치한 뒤, 이 폴더의 터미널에서 <code>py -3.13 launch.py</code>를 실행하세요. 최초 실행 시 PyPI에서 해시 검증한 의존성을 전용 가상환경에 설치합니다. CMD/PowerShell 실행 파일, 관리자 권한, 보안 설정 변경은 사용하지 않습니다. 최신 3.14나 자유 스레딩 버전은 이 패키지의 지원 대상이 아닙니다.</li>
+<li>공식 Python을 사용하는 소스 코드 실행 방식이며, 스마트 앱 컨트롤이 검증한 서명 앱이라는 의미는 아닙니다. Python, Playwright의 node.exe 또는 다른 구성요소가 차단되면 중지하고 해당 파일명을 확인하세요. 보호 기능을 끄거나 파일의 보안 표시를 지우지 마세요.</li>
+</ul></details></section>
+<footer><div class="row"><button id="exit" class="danger">도우미 종료</button><span>창만 닫아도 프로그램은 계속 실행됩니다. 종료 버튼 또는 실행창에서 Ctrl+C를 누르세요.</span></div><p>개인 이용을 위한 보조 도구입니다. 다운로드 권한이 있는 콘텐츠에 한해 사이트 약관과 이용권 범위 안에서 사용하세요.</p></footer>
+</main>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+let token = location.hash.slice(1) || sessionStorage.getItem('localMovieToken') || '';
+if (location.hash) { sessionStorage.setItem('localMovieToken',token); history.replaceState(null,'',location.pathname); }
+let catalog = [], initialized = false, lastResults = '', lastHistory = '', lastLogs = '', busy = false;
+const selected = new Set();
+function showError(message) { $('error').textContent = message; $('error').classList.toggle('show',!!message); }
+async function api(path,body) {
+  const response = await fetch('/api/'+path,{method:body?'POST':'GET',headers:{Authorization:'Bearer '+token,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});
+  const data = await response.json(); if(!response.ok) throw new Error(data.error || '요청 실패'); return data;
+}
+function text(tag,value,cls) { const e=document.createElement(tag); e.textContent=value; if(cls)e.className=cls; return e; }
+function count() { $('selectedCount').textContent=selected.size+'편 선택'; }
+function renderMovies() {
+  $('movies').replaceChildren();
+  for(const movie of catalog) {
+    if($('yearFilter').value!=='all' && String(movie.year)!==$ ('yearFilter').value) continue;
+    const label=document.createElement('label'); label.className='movie';
+    const check=document.createElement('input');check.type='checkbox';check.checked=selected.has(movie.id);check.disabled=busy;check.className='idle';
+    check.addEventListener('change',()=>{if(check.checked)selected.add(movie.id);else selected.delete(movie.id);count();});
+    label.append(check,text('span',movie.title),text('small',movie.year));$('movies').append(label);
+  }
+  count();
+}
+function renderResults(rows) {
+  const key=JSON.stringify(rows);if(key===lastResults)return;lastResults=key;
+  $('results').replaceChildren();
+  if(!rows.length){const row=document.createElement('tr'),cell=text('td','아직 실행한 작업이 없습니다.','empty');cell.colSpan=3;row.append(cell);$('results').append(row);return;}
+  for(const r of rows){
+    const tr=document.createElement('tr'),name=document.createElement('td'),state=document.createElement('td'),note=document.createElement('td');
+    name.append(text('strong',r.movie),text('small',r.year));
+    state.append(text('span',r.status,'badge '+(['검사 통과','파일 확인','파일 있음'].includes(r.status)?'ok':['확인 필요','공간 부족'].includes(r.status)?'warn':'')));
+    note.append(text('span',r.note||''));if(r.size)note.append(text('small',(r.size/1073741824).toFixed(2)+' GB'));
+    if(r.files)note.append(text('small',r.files.join(' · ')));
+    if(r.board && /^\d+$/.test(r.board)){const a=text('a','게시물 보기');a.href='https://new.pdpop.com/view/'+r.board;a.target='_blank';a.rel='noopener noreferrer';note.append(a);}
+    tr.append(name,state,note);$('results').append(tr);
+  }
+}
+function renderHistory(entries){
+  const key=JSON.stringify(entries)+busy;if(key===lastHistory)return;lastHistory=key;$('history').replaceChildren();
+  const labels={uncertain:'전송 여부 확인 필요',requested:'요청됨 · 파일 확인 필요',file_checked:'파일 확인됨',existing:'기존 파일 있음'};
+  for(const [id,r] of Object.entries(entries)){
+    const div=document.createElement('div');div.className='row';div.style.marginBottom='12px';
+    const name=text('span',r.title+' ('+r.year+') — '+(labels[r.status]||r.status));name.style.flex='1';
+    const button=text('button','이력 해제');button.disabled=busy;
+    button.addEventListener('click',async()=>{if(!confirm(r.title+'의 전송이 대기 중이거나 진행 중이지 않고, 다시 요청할 필요가 있음을 확인했습니까?\n이력을 해제하면 다음 실행에서 중복 다운로드가 발생할 수 있습니다.'))return;try{await api('forget',{movie_id:id,confirmed:true});await poll();}catch(e){showError(e.message);}});
+    div.append(name,button);$('history').append(div);
+  }
+  if(!Object.keys(entries).length)$('history').append(text('p','저장된 요청 이력이 없습니다.','muted'));
+}
+async function poll(){
+  if(!token){$('installHelp').hidden=false;document.querySelectorAll('button').forEach(button=>button.disabled=true);$('phase').textContent='실행 안내';$('busyText').textContent='위 안내에 따라 launch.py를 실행하세요.';return;}
+  try{
+    const s=await api('state');const changed=busy!==s.busy;busy=s.busy;
+    if(!initialized){catalog=s.catalog;catalog.forEach(m=>selected.add(m.id));for(let y=1990;y<=1999;y++){const op=text('option',y+'년');op.value=y;$('yearFilter').append(op);}$('catalogNote').textContent='원개봉 연도 기준 '+catalog.length+'편 · 선택한 순서가 아닌 연도순으로 처리';initialized=true;renderMovies();}
+    if(changed)renderMovies();
+    document.querySelectorAll('.idle').forEach(e=>e.disabled=busy);
+    $('phase').textContent=s.phase;$('busyText').textContent=busy?'작업 중 · 전용 Edge 탭을 조작하지 마세요.':'실행 대기';
+    renderResults(s.results);renderHistory(s.history);
+    const logs=s.logs.map(x=>x.time+'  '+x.message).join('\n');if(logs!==lastLogs){lastLogs=logs;$('logs').textContent=logs||'아직 기록이 없습니다.';$('logs').scrollTop=$('logs').scrollHeight;}
+  }catch(e){showError('연결할 수 없습니다. 실행창이 열려 있는지 확인하세요. '+e.message);}
+}
+async function action(path,body={}){showError('');try{await api(path,body);await poll();}catch(e){showError(e.message);}}
+function job(mode){
+  if(!selected.size)return showError('영화를 한 편 이상 선택하세요.');
+  if(mode==='run'&&!$('folderConfirmed').checked)return showError('전용 다운로더에서 저장 폴더를 지정한 뒤 확인 체크를 해 주세요.');
+  action('job',{mode,destination:$('destination').value,movies:[...selected],limit:Number($('limit').value),budget:Number($('budget').value),timeout:Number($('timeout').value),folder_confirmed:$('folderConfirmed').checked});
+}
+$('openBrowser').addEventListener('click',()=>action('browser'));
+$('setFolder').addEventListener('click',()=>{ $('folderConfirmed').checked=false;action('folder',{destination:$('destination').value}); });
+$('destination').addEventListener('input',()=>{$('folderConfirmed').checked=false;});
+$('yearFilter').addEventListener('change',renderMovies);
+$('selectVisible').addEventListener('click',()=>{catalog.filter(m=>$('yearFilter').value==='all'||String(m.year)===$('yearFilter').value).forEach(m=>selected.add(m.id));renderMovies();});
+$('clearSelection').addEventListener('click',()=>{selected.clear();renderMovies();});
+$('scan').addEventListener('click',()=>job('scan'));$('run').addEventListener('click',()=>job('run'));
+$('stop').addEventListener('click',()=>action('stop'));
+$('exit').addEventListener('click',async()=>{if(confirm('도우미를 종료할까요? 전용 다운로더에서 이미 진행 중인 전송은 계속됩니다.')){try{await api('exit',{});clearInterval(timer);$('phase').textContent='종료됨';document.querySelectorAll('button').forEach(b=>b.disabled=true);}catch(e){showError(e.message);}}});
+poll();const timer=setInterval(poll,1500);
+</script>
+</body></html>
